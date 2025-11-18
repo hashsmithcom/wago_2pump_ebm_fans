@@ -1,0 +1,22 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "8d671bca-f2f3-4cc9-b546-5ca4f93cc0a6",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE ENUM_LevelStatuses :
+(
+	undefined := 0,
+	statusOK := 1,
+	statusFail := 2
+);
+END_TYPE

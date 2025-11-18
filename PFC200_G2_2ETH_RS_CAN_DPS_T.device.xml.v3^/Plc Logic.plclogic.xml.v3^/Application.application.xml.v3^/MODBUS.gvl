@@ -1,0 +1,23 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "cc8b1e23-950b-4cb0-b8a8-5e792a01c9e4",
+    "objectTypeGuid": "ffbfa93a-b94d-45fc-a329-229860183b1d",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+VAR_GLOBAL
+	
+	
+	
+	
+	
+	
+	
+END_VAR

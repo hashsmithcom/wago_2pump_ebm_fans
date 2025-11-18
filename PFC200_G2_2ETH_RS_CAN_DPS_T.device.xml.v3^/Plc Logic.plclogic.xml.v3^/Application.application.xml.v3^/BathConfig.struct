@@ -1,0 +1,31 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "e5c13fa4-97a5-474d-8886-3b334a3872e3",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE BathConfig:
+	STRUCT
+		AdminMainRelay: ENUM_AdminRelayStatus := ENUM_AdminRelayStatus.relayAutoEnable;
+		AdminPumpRelay: ENUM_AdminRelayStatus := ENUM_AdminRelayStatus.relayAutoEnable;
+		AdminFanRelay: ENUM_AdminRelayStatus := ENUM_AdminRelayStatus.relayAutoEnable;
+		LiquidStepInterval: TIME := T#15S;
+		LiquidTargetTemp: UINT := 40;
+		LiquidAlertTemp: UINT := 70;
+		FanMinFreq: UINT := 0;
+		PressureStabilizeInterval: TIME := T#20S;
+		PressureStabilizeTarget: REAL := 20;
+		
+		CalibrateInPressureSensorMIN: UINT := 0;
+		CalibrateInPressureSensorDelta: UINT := 150;
+		CalibrateOutPressureSensorMIN: UINT := 0;
+		CalibrateOutPressureSensorDelta: UINT := 150;
+	END_STRUCT
+END_TYPE

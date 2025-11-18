@@ -1,0 +1,21 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "471465e4-e337-4b52-af8a-f0acaa1e53d9",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'strict'}
+TYPE SERVER_STATE :
+	(
+		CREATE := 0,
+		LISTEN := 10,
+		SEND := 20
+	);
+END_TYPE

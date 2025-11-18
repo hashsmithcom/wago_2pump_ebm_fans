@@ -1,0 +1,24 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "2ce6aa9d-ccf0-4a78-bd00-0f1acab2738d",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE CONNECTION :
+	STRUCT
+		eState: SERVER_STATE; 					// Шаг состояния сервера
+		fbTcpConnection: NBS.TCP_Connection; 	// ФБ обработки подключения
+		fbTcpRead: NBS.TCP_Read; 				// ФБ чтения данных
+		fbTcpWrite: NBS.TCP_Write; 				// ФБ записи данных
+		sClientString: STRING; 					// Строка, которую клиент отправляет на сервер
+		sInverseString: STRING(1000); 			// Строка, которую клиент получает от сервера
+		fbAddClient: R_TRIG;					// Триггер установки соединения
+	END_STRUCT
+END_TYPE

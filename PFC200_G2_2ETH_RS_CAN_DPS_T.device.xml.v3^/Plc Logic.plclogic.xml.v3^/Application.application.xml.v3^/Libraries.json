@@ -1,0 +1,165 @@
+{
+  "references": {
+    "NBS": {
+      "$type": "ManagedLibrary",
+      "libraryId": "CAA Net Base Services, 3.5.20.0 (CAA Technical Workgroup)",
+      "allowUnqualifiedAccess": true
+    },
+    "Standard": {
+      "$type": "Placeholder",
+      "placeholder": "Standard",
+      "defaultResolution": "",
+      "allowUnqualifiedAccess": true
+    }
+  },
+  "placeholderOverrides": {
+    "Standard": "Standard, 3.5.18.0 (System)",
+    "WagoAppProcessorLoad": "WagoAppProcessorLoad, 2.0.1.3 (WAGO)",
+    "WagoAppString": "WagoAppString, 1.6.3.4 (WAGO)",
+    "WagoAppTime": "WagoAppTime, 1.7.3.5 (WAGO)",
+    "WagoSysBehaviourModels": "WagoSysBehaviourModels, 1.6.3.1 (WAGO)",
+    "WagoSysErrorBase": "WagoSysErrorBase, 1.6.2.6 (WAGO)",
+    "WagoSysModule_750_451": "WagoSysModule_750_451, 1.9.4.3 (WAGO)",
+    "WagoSysModuleBase": "WagoSysModuleBase, 2.0.2.10 (WAGO)",
+    "WagoSysModuleBaseProtected": "WagoSysModuleBaseProtected, 1.9.10.1 (WAGO)",
+    "WagoSysPlainMem": "WagoSysPlainMem, 1.5.3.1 (WAGO)",
+    "WagoSysStandard": "WagoSysStandard, 1.6.1.0 (WAGO)",
+    "WagoSysString": "WagoSysString, 1.6.1.1 (WAGO)",
+    "WagoSysTypedefs_Pointer": "WagoSysTypedefs_Pointer, 1.0.2.0 (WAGO)",
+    "WagoSysUtils": "WagoSysUtils, 1.5.3.0 (WAGO)",
+    "WagoTypesAppLED": "WagoTypesAppLED, 1.5.2.1 (WAGO)",
+    "WagoTypesBusServices": "WagoTypesBusServices, 2.0.1.2 (WAGO)",
+    "WagoTypesCom": "WagoTypesCom, 1.6.2.3 (WAGO)",
+    "WagoTypesCommon": "WagoTypesCommon, 1.6.0.0 (WAGO)",
+    "WagoTypesErrorBase": "WagoTypesErrorBase, 1.6.2.1 (WAGO)",
+    "WagoTypesModbus": "WagoTypesModbus, 1.6.1.2 (WAGO)",
+    "WagoTypesModule_750_451": "WagoTypesModule_750_451, 1.9.3.1 (WAGO)",
+    "WagoTypesModuleBase": "WagoTypesModuleBase, 1.9.11.1 (WAGO)",
+    "WagoTypesProcessorLoad": "WagoTypesProcessorLoad, 1.0.1.1 (WAGO)",
+    "WagoTypesSocket": "WagoTypesSocket, 1.5.3.1 (WAGO)"
+  },
+  "v3Meta": {
+    "objectName": null,
+    "objectGuid": "cc51750e-4973-4b29-abf7-b58b0cacefb8",
+    "objectTypeGuid": "adb5cb65-8e1d-4a00-b70a-375ea27582f3",
+    "embeddedObjectTypeGuids": [],
+    "properties": {},
+    "subObjects": {}
+  },
+  "libraryParameters": {
+    "#WagoSysComInternal": {
+      "CUDIMAXCOMNUMBER": "32767"
+    },
+    "CAA Net Base Services, 3.5.15.0 (CAA Technical Workgroup)": {
+      "GC_UDITASKOPENERPRIORITY": "gc_udiTaskRWPriority",
+      "GC_UDITASKRWPRIORITY": "240"
+    },
+    "CAA Net Base Services, 3.5.20.0 (CAA Technical Workgroup)": {
+      "GC_UDITASKOPENERPRIORITY": "gc_udiTaskRWPriority",
+      "GC_UDITASKRWPRIORITY": "240"
+    }
+  },
+  "v3SystemLibraries": [
+    {
+      "namespace": "_3S_LICENSE",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "3SLicense",
+        "defaultResolution": "3SLicense, 0.0.0.0 (3S - Smart Software Solutions GmbH)",
+        "resolverGuid": "97c3b452-d9fa-4ac2-9d0c-3d420aa6d95b",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "BPLog",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "BreakpointLogging",
+        "defaultResolution": "Breakpoint Logging Functions, * (3S - Smart Software Solutions GmbH)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "IoDrvModbus",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "IoDrvModbus",
+        "defaultResolution": "IoDrvModbus, 4.5.0.0 (CODESYS)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "IoStandard",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "IoStandard",
+        "defaultResolution": "IoStandard, 3.5.17.0 (System)",
+        "allowUnqualifiedAccess": true,
+        "linkAllContent": true
+      }
+    },
+    {
+      "namespace": "WagoAppProcessorLoad",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "WagoAppProcessorLoad",
+        "defaultResolution": "WagoAppProcessorLoad, * (WAGO)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "WagoSysCom_Internal",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "WagoSysComInternal",
+        "defaultResolution": "WagoSysCom_Internal_PFC, 1.0.2.7 (WAGO)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "WagoSysDRM",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "WagoSysDRM",
+        "defaultResolution": "WagoSysDRM, 1.0.3.4 (WAGO)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "WagoSysKbusServices",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "WagoSysKbusServices",
+        "defaultResolution": "WagoSysKbusServices, 2.0.2.3 (WAGO)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "WagoSysKbusTerminalControl",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "WagoSysKbusTerminalControl",
+        "defaultResolution": "WagoSysKbusTerminalControl, 2.2.2.2 (WAGO)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "WagoSysModule_750_451",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "WagoSysModule_750_451",
+        "defaultResolution": "WagoSysModule_750_451, * (WAGO)",
+        "allowUnqualifiedAccess": true
+      }
+    },
+    {
+      "namespace": "WagoSysStandard",
+      "libraryReference": {
+        "$type": "Placeholder",
+        "placeholder": "WagoSysStandard",
+        "defaultResolution": "WagoSysStandard, * (WAGO)",
+        "allowUnqualifiedAccess": true
+      }
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+__V3_META__
+{
+  "objectGuid": "b5430773-3042-47d6-a6d3-28650a6ce532",
+  "objectTypeGuid": "63784cbb-9ba0-45e6-9d69-babf3f040511",
+  "embeddedObjectTypeGuids": [],
+  "properties": {},
+  "subObjects": {}
+}
+__V3_CONTENT__
+<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{63784cbb-9ba0-45e6-9d69-babf3f040511}" Method="IArchivable">
+  <List Name="TextList" Type="System.Collections.ArrayList" />
+  <List Name="Languages" Type="System.Collections.ArrayList" />
+  <Single Name="GuidInit" Type="System.Guid">f4a0da8b-14ac-4a04-a952-7b15138616f3</Single>
+  <Single Name="GuidReInit" Type="System.Guid">bb315d75-452e-4ba4-a736-c4f15f384627</Single>
+  <Single Name="GuidExitX" Type="System.Guid">0f178b82-011d-426c-b829-2e6e194f857d</Single>
+</Single>

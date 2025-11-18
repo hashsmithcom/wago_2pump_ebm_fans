@@ -1,0 +1,58 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "e433f8f3-07db-4897-809b-093d3c1eb0dc",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE Bath :
+STRUCT
+	BathNumber: 				INT := 0;
+	BathConfig: 				BathConfig;
+	LiquidInTemp: 				REAL;
+	LiquidOutTemp: 				REAL;
+	PressureIncoming:			REAL;
+	PressureOutgoing:			REAL;
+	PressureIncomingBar:		REAL;
+	PressureOutgoingBar:		REAL;
+	LevelSensor:				BOOL;
+	
+	Freq: 						REAL := 0;
+	
+	Fans: 						ARRAY[1..14] OF FAN;
+	
+	MainStatus: 				ENUM_MainStatuses := ENUM_MainStatuses.statusOK;
+	TempStatus: 				ENUM_TempStatuses := ENUM_TempStatuses.undefined;
+	LevelStatus: 				ENUM_LevelStatuses := ENUM_LevelStatuses.statusOK;
+
+	FanLastReload: 				BOOL := FALSE;
+
+	MainRelay_on: 				BOOL := FALSE;
+	MainRelay_off: 				BOOL := FALSE;
+	
+	MainRelayTripStatus: 		BOOL := FALSE;
+	MainKMTripStatus: 			BOOL := FALSE;
+	PumpKMTripStatus: 			BOOL := FALSE;
+	PumpCBTripStatus: 			BOOL := FALSE;
+	ACCBTripStatus: 			BOOL := FALSE;
+
+	MainRelayStatus: 			BOOL := FALSE;
+	MainRelayEnable:			BOOL := FALSE;
+	MainRelayDisable:			BOOL := FALSE;
+	MainKMStatus: 				BOOL := FALSE;
+	PumpKMStatus: 				BOOL := FALSE;
+
+	LiquidIncreaseMax:			REAL := 0;
+	LiquidDecreaseMax:			REAL := 100;
+	
+	
+	PRESSURE_TC_TON: 			TON;
+	Bath_Freq_TON: 				TON;
+END_STRUCT
+END_TYPE

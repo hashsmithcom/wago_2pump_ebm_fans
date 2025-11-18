@@ -1,0 +1,30 @@
+__V3_META__
+{
+  "objectGuid": "5bcdb901-65f9-4dc6-aec4-3bc61057ce22",
+  "objectTypeGuid": "261bd6e6-249c-4232-bb6f-84c2fbeef430",
+  "embeddedObjectTypeGuids": [
+    "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+  ],
+  "properties": {},
+  "subObjects": {}
+}
+__V3_CONTENT__
+<?xml version="1.0" encoding="utf-8"?>
+<Single xml:space="preserve" Type="{261bd6e6-249c-4232-bb6f-84c2fbeef430}" Method="IArchivable">
+  <Null Name="persvarlist" />
+  <Single Name="Interface" Type="{a9ed5b7e-75c5-4651-af16-d2c27e98cb94}" Method="IArchivable">
+    <Single Name="TextDocument" Type="{f3878285-8e4f-490b-bb1b-9acbb7eb04db}" Method="IArchivable">
+      <Single Name="TextBlobForSerialisation" Type="string">{attribute 'qualified_only'}
+VAR_GLOBAL PERSISTENT RETAIN
+	main_remote_command: ENUM_MainStatuses;
+	HighAirTemp: UINT := 40;
+	BathConfigs: ARRAY[0..1] OF BathConfig;
+END_VAR;</Single>
+      <Single Name="LineInfoPersistence" Type="string">5bcdb901-65f9-4dc6-aec4-3bc61057ce22_Decl_LineIds</Single>
+    </Single>
+  </Single>
+  <Null Name="NetVarProperties" />
+  <Single Name="guidinit" Type="System.Guid">37991689-777b-4b11-ac5d-14bbffb87702</Single>
+  <Single Name="guidcyclic" Type="System.Guid">4508a3b4-1ecd-45dc-b8f8-5a5ac01a74c8</Single>
+  <Single Name="dymmattributecount" Type="int">2</Single>
+</Single>

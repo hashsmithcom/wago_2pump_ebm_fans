@@ -1,0 +1,19 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "1babebc3-9ded-4c3c-826e-b25dfe1d2716",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+TYPE FAN :
+STRUCT
+	PW: 		ARRAY[0..5]OF BYTE := [101, 112, 77, 32, 69, 67];
+	Speed: 		WORD := 0;
+END_STRUCT
+END_TYPE

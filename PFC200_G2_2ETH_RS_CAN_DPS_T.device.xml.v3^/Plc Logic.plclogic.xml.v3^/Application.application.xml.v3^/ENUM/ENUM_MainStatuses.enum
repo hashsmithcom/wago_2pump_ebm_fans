@@ -1,0 +1,36 @@
+__METADATA__
+{
+  "v3Meta": {
+    "objectGuid": "eb0adc44-db60-444d-a099-7f5ff2de9d23",
+    "objectTypeGuid": "2db5746d-d284-4425-9f7f-2663a34b0ebc",
+    "embeddedObjectTypeGuids": [
+      "a9ed5b7e-75c5-4651-af16-d2c27e98cb94"
+    ],
+    "properties": {},
+    "subObjects": {}
+  }
+}
+__DECLARATION__
+{attribute 'qualified_only'}
+{attribute 'strict'}
+TYPE ENUM_MainStatuses :
+(
+	undefined := 0,
+	statusOK := 1,
+	emergencyOn := 2,
+	highAirTempStatus := 3,
+	highLiquidTempStatus := 4,
+	pressureFail := 5,
+	configurationFail := 6,
+	liquidLevelFail := 7,
+	liquidTempSensorFail := 8,
+	
+	dependentStatus := 99,
+	
+	mainStatusRemoteErrorReset := 101,
+	mainStatusRemoteSoftShutDown := 102,
+	mainStatusRemoteEmergencyShutDown := 103,
+	mainStatusRemoteMaintanceMode := 104,
+	mainStatusRemoteColdStart := 105
+);
+END_TYPE
