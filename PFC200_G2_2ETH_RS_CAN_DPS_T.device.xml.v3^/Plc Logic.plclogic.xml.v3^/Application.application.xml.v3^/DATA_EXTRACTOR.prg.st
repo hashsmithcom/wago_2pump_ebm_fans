@@ -35,6 +35,9 @@ VAR
 	
 	TempSensorMin: REAL:= -40;
 	TempSensorDeltaT: REAL:= 100;
+
+	iBath: UINT;
+	iAC: UINT;
 END_VAR;
 __IMPLEMENTATION__
 GVL.Baths[0].LiquidInTemp := INT_TO_REAL(LeftIncomingTemp)/10;
@@ -57,3 +60,33 @@ GVL.ContainerAirHumi := (WORD_TO_REAL(CabinetAirHumi)/2047.5)/16*100;
 
 GVL.CabinetAirTemp:= (WORD_TO_REAL(CabinetAirTemp)/2047.5)/16*AirTempSensorDeltaT-ABS(AirTempSensorMin);
 GVL.CabinetAirHumi := (WORD_TO_REAL(CabinetAirHumi)/2047.5)/16*100;
+
+FOR iBath := 0 TO 1 BY 1 DO
+  MODBUS.LiquidInTemp[iBath]     := GVL.Baths[iBath].LiquidInTemp;
+  MODBUS.LiquidOutTemp[iBath]    := GVL.Baths[iBath].LiquidOutTemp;
+  MODBUS.PressureIncoming[iBath] := GVL.Baths[iBath].PressureIncoming;
+  MODBUS.PressureOutgoing[iBath] := GVL.Baths[iBath].PressureOutgoing;
+  MODBUS.Freq[iBath]             := GVL.Baths[iBath].Freq;
+
+  MODBUS.MainStatus[iBath]  := GVL.Baths[iBath].MainStatus;
+  MODBUS.TempStatus[iBath]  := GVL.Baths[iBath].TempStatus;
+  MODBUS.LevelStatus[iBath] := GVL.Baths[iBath].LevelStatus;
+
+  MODBUS.ACBLogicStatus[iBath]    := GVL.Baths[iBath].MainRelayStatus;
+  MODBUS.ACBFeedbackStatus[iBath] := GVL.Baths[iBath].MainRelayTripStatus;
+
+  MODBUS.PumpKMStatus[iBath]         := GVL.Baths[iBath].PumpKMStatus;
+  MODBUS.PumpKMFeedbackStatus[iBath] := GVL.Baths[iBath].PumpKMTripStatus;
+  MODBUS.PumpCBFeedbackStatus[iBath] := GVL.Baths[iBath].PumpCBTripStatus;
+END_FOR;
+
+FOR iAC := 0 TO 1 BY 1 DO
+  MODBUS.ACKMFeedbackStatus[iAC] := GVL.Baths[iAC].ACCBTripStatus;
+  MODBUS.ACCBFeedbackStatus[iAC] := GVL.Baths[iAC].ACCBTripStatus;
+END_FOR;
+
+MODBUS.ContainerAirTemp := GVL.ContainerAirTemp;
+MODBUS.ContainerAirHumi := GVL.ContainerAirHumi;
+
+MODBUS.CabinetAirTemp := GVL.CabinetAirTemp;
+MODBUS.CabinetAirHumi := GVL.ContainerAirHumi;

@@ -21,13 +21,13 @@ END_VAR
 __IMPLEMENTATION__
 getBathConf := '';
 //AdminMainRelay
-getBathConf := CONCAT(getBathConf, UINT_TO_STRING(Bath^.BathConfig.AdminMainRelay));
+getBathConf := CONCAT(getBathConf, INT_TO_STRING(Bath^.BathConfig.AdminMainRelay));
 getBathConf := CONCAT(getBathConf ,':');
 //AdminPumpRelay 
-getBathConf := CONCAT(getBathConf, UINT_TO_STRING(Bath^.BathConfig.AdminPumpRelay));
+getBathConf := CONCAT(getBathConf, INT_TO_STRING(Bath^.BathConfig.AdminPumpRelay));
 getBathConf := CONCAT(getBathConf ,':');
 //AdminFanRelay
-getBathConf := CONCAT(getBathConf, UINT_TO_STRING(Bath^.BathConfig.AdminFanRelay));
+getBathConf := CONCAT(getBathConf, INT_TO_STRING(Bath^.BathConfig.AdminFanRelay));
 getBathConf := CONCAT(getBathConf ,':');
 //LiquidStepInterval
 getBathConf := CONCAT(getBathConf, TIME_TO_STRING(Bath^.BathConfig.LiquidStepInterval));

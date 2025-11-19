@@ -13,11 +13,29 @@ __METADATA__
 __DECLARATION__
 {attribute 'qualified_only'}
 VAR_GLOBAL
-	
-	
-	
-	
-	
-	
-	
+  LiquidInTemp     : ARRAY[0..3] OF REAL;
+  LiquidOutTemp    : ARRAY[0..3] OF REAL;
+  PressureIncoming : ARRAY[0..3] OF REAL;
+  PressureOutgoing : ARRAY[0..3] OF REAL;
+  Freq             : ARRAY[0..3] OF REAL;
+
+  MainStatus  : ARRAY[0..3] OF INT;
+  TempStatus  : ARRAY[0..3] OF INT;
+  LevelStatus : ARRAY[0..3] OF INT;
+
+  ACBLogicStatus    : ARRAY[0..3] OF BOOL;
+  ACBFeedbackStatus : ARRAY[0..3] OF BOOL;
+
+  PumpKMStatus         : ARRAY[0..3] OF BOOL;
+  PumpKMFeedbackStatus : ARRAY[0..3] OF BOOL;
+  PumpCBFeedbackStatus : ARRAY[0..3] OF BOOL;
+
+  ACKMFeedbackStatus : ARRAY[0..1] OF BOOL;
+  ACCBFeedbackStatus : ARRAY[0..1] OF BOOL;
+
+  ContainerAirTemp : REAL;
+  ContainerAirHumi : REAL;
+
+  CabinetAirTemp : REAL;
+  CabinetAirHumi : REAL;
 END_VAR
