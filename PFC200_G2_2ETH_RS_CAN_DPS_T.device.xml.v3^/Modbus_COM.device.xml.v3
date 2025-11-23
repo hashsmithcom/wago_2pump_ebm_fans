@@ -11,7 +11,7 @@ __V3_META__
 __V3_CONTENT__
 <?xml version="1.0" encoding="utf-8"?>
 <Single xml:space="preserve" Type="{225bfe47-7336-4dbc-9419-4105a7c831fa}" Method="IArchivable">
-  <Single Name="UniqueIdGenerator" Type="string">4147</Single>
+  <Single Name="UniqueIdGenerator" Type="string">4163</Single>
   <Null Name="TypeList" />
   <Single Name="NeedsBusCycle" Type="bool">False</Single>
   <Single Name="Id" Type="{05ee0b98-6639-4276-bc32-b75578b819ef}" Method="IArchivable">
@@ -275,8 +275,8 @@ __V3_CONTENT__
             <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
               <Single Name="Id" Type="uint">9202</Single>
               <Single Name="DalaElement" Type="{4322e2a3-55e5-4e47-9fcd-b70eb1e6bfee}" Method="IArchivable">
-                <Single Name="PositionId" Type="long">4140</Single>
-                <Single Name="EditorPositionId" Type="long">4141</Single>
+                <Single Name="PositionId" Type="long">4156</Single>
+                <Single Name="EditorPositionId" Type="long">4157</Single>
                 <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
                   <Single Name="Default" Type="string">Parity</Single>
                 </Single>
@@ -323,8 +323,8 @@ __V3_CONTENT__
             <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
               <Single Name="Id" Type="uint">9203</Single>
               <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
-                <Single Name="PositionId" Type="long">4142</Single>
-                <Single Name="EditorPositionId" Type="long">4143</Single>
+                <Single Name="PositionId" Type="long">4158</Single>
+                <Single Name="EditorPositionId" Type="long">4159</Single>
                 <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
                   <Single Name="Default" Type="string">DataBits</Single>
                 </Single>
@@ -337,8 +337,8 @@ __V3_CONTENT__
             <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
               <Single Name="Id" Type="uint">9204</Single>
               <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
-                <Single Name="PositionId" Type="long">4144</Single>
-                <Single Name="EditorPositionId" Type="long">4145</Single>
+                <Single Name="PositionId" Type="long">4160</Single>
+                <Single Name="EditorPositionId" Type="long">4161</Single>
                 <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
                   <Single Name="Default" Type="string">StopBits</Single>
                 </Single>
@@ -351,8 +351,8 @@ __V3_CONTENT__
             <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
               <Single Name="Id" Type="uint">9206</Single>
               <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
-                <Single Name="PositionId" Type="long">4146</Single>
-                <Single Name="EditorPositionId" Type="long">4147</Single>
+                <Single Name="PositionId" Type="long">4162</Single>
+                <Single Name="EditorPositionId" Type="long">4163</Single>
                 <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
                   <Single Name="Default" Type="string">ComPort</Single>
                 </Single>

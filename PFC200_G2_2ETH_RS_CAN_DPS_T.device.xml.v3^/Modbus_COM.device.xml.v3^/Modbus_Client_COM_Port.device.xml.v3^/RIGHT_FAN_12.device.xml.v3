@@ -11,7 +11,7 @@ __V3_META__
 __V3_CONTENT__
 <?xml version="1.0" encoding="utf-8"?>
 <Single xml:space="preserve" Type="{225bfe47-7336-4dbc-9419-4105a7c831fa}" Method="IArchivable">
-  <Single Name="UniqueIdGenerator" Type="string">4292</Single>
+  <Single Name="UniqueIdGenerator" Type="string">4298</Single>
   <Null Name="TypeList" />
   <Single Name="NeedsBusCycle" Type="bool">False</Single>
   <Single Name="Id" Type="{05ee0b98-6639-4276-bc32-b75578b819ef}" Method="IArchivable">
@@ -105,74 +105,44 @@ __V3_CONTENT__
             <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
               <Single Name="Id" Type="uint">9100</Single>
               <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
-                <Null Name="FilterFlags" />
-                <Single Name="PositionId" Type="long">4207</Single>
-                <Single Name="EditorPositionId" Type="long">4208</Single>
-                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
-                  <Single Name="Namespace" Type="string">local</Single>
-                  <Single Name="Identifier" Type="string">Parameter.ServerAddr</Single>
-                  <Single Name="Default" Type="string">Server Address of the Device</Single>
-                </Single>
+                <Single Name="PositionId" Type="long">4293</Single>
+                <Single Name="EditorPositionId" Type="long">4294</Single>
                 <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
-                  <Single Name="Namespace" Type="string">local</Single>
-                  <Single Name="Identifier" Type="string">Parameter.ServerAddr</Single>
-                  <Single Name="Default" Type="string">ServerAddress</Single>
+                  <Single Name="Default" Type="string">SlaveAddress</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">9100</Single>
-                <Single Name="Value" Type="string">101</Single>
+                <Single Name="Value" Type="string">112</Single>
                 <Single Name="Type" Type="string">USINT</Single>
-                <Single Name="Default" Type="string">1</Single>
               </Single>
               <Single Name="ParamType" Type="string">std:USINT</Single>
-              <Single Name="IndexInDevDesc" Type="long">0</Single>
             </Single>
             <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
               <Single Name="Id" Type="uint">9101</Single>
               <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
-                <Null Name="FilterFlags" />
-                <Single Name="PositionId" Type="long">4209</Single>
-                <Single Name="EditorPositionId" Type="long">4210</Single>
-                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
-                  <Single Name="Namespace" Type="string">local</Single>
-                  <Single Name="Identifier" Type="string">Parameter.ResponseTimeout</Single>
-                  <Single Name="Default" Type="string">Maximum time for a Server to respond in ms</Single>
-                </Single>
+                <Single Name="PositionId" Type="long">4295</Single>
+                <Single Name="EditorPositionId" Type="long">4296</Single>
                 <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
-                  <Single Name="Namespace" Type="string">local</Single>
-                  <Single Name="Identifier" Type="string">Parameter.ResponseTimeout</Single>
                   <Single Name="Default" Type="string">ResponseTimeout</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">9101</Single>
                 <Single Name="Value" Type="string">1000</Single>
                 <Single Name="Type" Type="string">DWORD</Single>
-                <Single Name="Default" Type="string">1000</Single>
               </Single>
               <Single Name="ParamType" Type="string">std:DWORD</Single>
-              <Single Name="IndexInDevDesc" Type="long">1</Single>
             </Single>
             <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
               <Single Name="Id" Type="uint">9102</Single>
               <Single Name="DalaElement" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
-                <Null Name="FilterFlags" />
-                <Single Name="PositionId" Type="long">4211</Single>
-                <Single Name="EditorPositionId" Type="long">4212</Single>
-                <Single Name="Description" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
-                  <Single Name="Namespace" Type="string">local</Single>
-                  <Single Name="Identifier" Type="string">Parameter.UseExtendedFunctionCodes</Single>
-                  <Single Name="Default" Type="string">Flag if using the extended set of Modbus commands</Single>
-                </Single>
+                <Single Name="PositionId" Type="long">4297</Single>
+                <Single Name="EditorPositionId" Type="long">4298</Single>
                 <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
-                  <Single Name="Namespace" Type="string">local</Single>
-                  <Single Name="Identifier" Type="string">Parameter.UseExtendedFunctionCodes</Single>
                   <Single Name="Default" Type="string">UseExtendedFunctionCodes</Single>
                 </Single>
                 <Single Name="Identifier" Type="string">9102</Single>
                 <Single Name="Value" Type="string">TRUE</Single>
                 <Single Name="Type" Type="string">BOOL</Single>
-                <Single Name="Default" Type="string">TRUE</Single>
               </Single>
               <Single Name="ParamType" Type="string">std:BOOL</Single>
-              <Single Name="IndexInDevDesc" Type="long">2</Single>
             </Single>
             <Single Type="{8c994079-f3c6-4484-9643-9258628feecd}" Method="IArchivable">
               <Single Name="Id" Type="uint">9200</Single>
@@ -297,6 +267,8 @@ __V3_CONTENT__
                               <Null Name="FilterFlags" />
                               <Single Name="OfflineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
                               <Single Name="OnlineAccess" Type="{f7a1fdea-1444-4931-82ab-fdb68bf81bcf}">Read</Single>
+                              <Single Name="PositionId" Type="long">4231</Single>
+                              <Single Name="EditorPositionId" Type="long">4232</Single>
                               <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
                                 <Single Name="Namespace" Type="string">local</Single>
                                 <Single Name="Identifier" Type="string">ErrorCounter</Single>
@@ -714,8 +686,8 @@ __V3_CONTENT__
                       <Single Name="TypeName" Type="string">TriggerEnumType</Single>
                       <Single Name="LmEnumTypeGuid" Type="System.Guid">133ee67c-9bcf-5a30-9dcf-7fb2c88c2bd7</Single>
                       <Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
-                        <Single Name="PositionId" Type="long">4154</Single>
-                        <Single Name="EditorPositionId" Type="long">4155</Single>
+                        <Single Name="PositionId" Type="long">4247</Single>
+                        <Single Name="EditorPositionId" Type="long">4248</Single>
                         <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
                           <Single Name="Namespace" Type="string">local</Single>
                           <Single Name="Identifier" Type="string">CHANNEL.Trigger</Single>
@@ -782,8 +754,8 @@ __V3_CONTENT__
                       <Single Name="TypeName" Type="string">ErrorHandlingEnumType</Single>
                       <Single Name="LmEnumTypeGuid" Type="System.Guid">0a3223f9-40f9-5fb0-b480-cbd15d48b65e</Single>
                       <Single Name="BaseType" Type="{08a69302-82ff-4bf9-a55d-a6014ee63990}" Method="IArchivable">
-                        <Single Name="PositionId" Type="long">4158</Single>
-                        <Single Name="EditorPositionId" Type="long">4159</Single>
+                        <Single Name="PositionId" Type="long">4251</Single>
+                        <Single Name="EditorPositionId" Type="long">4252</Single>
                         <Single Name="VisibleName" Type="{35cf7b1a-a4cd-490b-8ebe-385e61fcc6d9}" Method="IArchivable">
                           <Single Name="Namespace" Type="string">local</Single>
                           <Single Name="Identifier" Type="string">CHANNEL.ErrorHandling</Single>

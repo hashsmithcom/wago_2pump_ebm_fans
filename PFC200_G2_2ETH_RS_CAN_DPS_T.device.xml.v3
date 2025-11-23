@@ -543,7 +543,7 @@ Compatible Devices:
           <Array Name="components" Type="byte">Ldw=</Array>
         </Single>
         <Single Type="{9ba826d6-fdbc-4f85-99e6-e813fdd446c4}" Method="IArchivable">
-          <Array Name="components" Type="byte">Cgk=</Array>
+          <Array Name="components" Type="byte">CgM=</Array>
         </Single>
         <Single Type="{9ba826d6-fdbc-4f85-99e6-e813fdd446c4}" Method="IArchivable">
           <Array Name="components" Type="byte">CgU=</Array>
@@ -554,11 +554,11 @@ Compatible Devices:
     <Single Name="SimulationMode" Type="bool">False</Single>
     <Single Name="SecureOnlineMode" Type="bool">False</Single>
     <Single Name="SecureOnlineModeExplicitelySet" Type="bool">False</Single>
-    <Single Name="Name" Type="string">p9c9-plc-01</Single>
+    <Single Name="Name" Type="string">p3c3-plc-01</Single>
     <Single Name="MonitoringIntervalMsec" Type="int">200</Single>
     <Single Name="ScanInformation" Type="{03b12d85-7991-4556-8c0e-c0b3063eb6c4}" Method="IArchivable">
-      <Single Name="ScanInformationDeviceName" Type="string">p9c9-plc-01</Single>
-      <Single Name="ScanInformationIPAddressAndPort" Type="string">10.9.10.5</Single>
+      <Single Name="ScanInformationDeviceName" Type="string">p3c3-plc-01</Single>
+      <Single Name="ScanInformationIPAddressAndPort" Type="string">10.3.10.5</Single>
       <Single Name="ScanInformationTargetID" Type="string">1006 120D</Single>
       <Single Name="ScanInformationTargetName" Type="string">WAGO 750-8216 PFC200 G2 2ETH RS CAN DPS</Single>
       <Single Name="ScanInformationTargetType" Type="string">4096</Single>
